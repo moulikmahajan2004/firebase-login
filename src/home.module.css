@@ -1,0 +1,38 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #46464694;
+  padding: 10px;
+  width: 100vh;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sig {
+  text-decoration: none;
+  margin-left: 3%;
+}
+
+.search {
+  width: 100vh;
+}
+
+.box h3 a,
+.box h3 a:visited {
+  text-decoration: none;
+  color: #0c0b0b;
+}
+
+.box h3 a:hover {
+  color: #007bff;
+}

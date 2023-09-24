@@ -1,0 +1,91 @@
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff94;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    border: 5px solid rgb(10, 91, 230);
+    position: relative; /* To position the signup link */
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(10, 91, 230);
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    align-self: flex-start;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(10, 91, 230);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  h5 {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .signup-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: rgb(10, 91, 230);
+    font-weight: bold;
+  }
+  
